@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UIComponentsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/colorPrimary" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal"
+        android:scrollbarSize="@dimen/margin_medium"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lbl_guest_room_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:text="@string/lbl_guest_room_light" />
+
+            <ToggleButton
+                android:id="@+id/tgGuestRoomLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:checked="true"
+                android:textOff="@string/lbl_off"
+                android:textOn="@string/lbl_on" />
+
+            <Switch
+                android:id="@+id/swt_door_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:checked="true"
+                android:switchMinWidth="100dp"
+                android:text="@string/lbl_door_lock"
+                android:textOff="@string/door_lock_close"
+                android:textOn="@string/door_lock_open" />
+
+            <TextView
+                android:id="@+id/lbl_brightness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginTop="@dimen/margin_large"
+                android:text="@string/lbl_brightness" />
+
+            <SeekBar
+                android:id="@+id/sBBrigitness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:indeterminate="false"
+                android:max="500"
+                android:progress="50" />
+
+            <TextView
+                android:id="@+id/lbl_how_much_you_love_the_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginTop="@dimen/margin_large"
+                android:text="@string/lbl_how_much_you_love_the_room" />
+
+            <RatingBar
+                android:id="@+id/rbHowmuchYouLoveTheRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:numStars="5"
+                android:rating="3.5" />
+
+            <TextView
+                android:id="@+id/lbl_shower_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginTop="@dimen/margin_large"
+                android:text="@string/lbl_shower_loading" />
+
+            <ProgressBar
+                android:id="@+id/progressBarLoading"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:indeterminate="true"
+                android:max="100"
+                android:minWidth="@dimen/shower_loading_pb_width"
+                android:minHeight="@dimen/shower_loading_pb_height"
+                android:progress="25" />
+
+
+            <TextView
+                android:id="@+id/lbl_lunch_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:text="@string/lbl_lunch_selection" />
+
+
+            <Spinner
+                android:id="@+id/spinnerLunchSelection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:entries="@array/lunch_selection" />
+
+            <TextView
+                android:id="@+id/lbl_additional_drinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:text="@string/lbl_additional_drinks" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextViewAdditionalDrinks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_card_medium_2"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginRight="@dimen/margin_card_medium_2" />
+
+            <DatePicker
+                android:id="@+id/dpDateToCheckOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_card_medium_2"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginRight="@dimen/margin_card_medium_2"
+                android:datePickerMode="calendar" />
+
+            <Button
+                android:id="@+id/btnSelectDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_card_medium_2"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:text="@string/btn_select_date" />
+
+            <TextView
+                android:id="@+id/tvSelectedDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_card_medium_2"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginBottom="@dimen/margin_medium_2"
+                android:text="@string/format_selected_date" />
+
+            <TimePicker
+                android:id="@+id/tpTimeToCheckout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_card_medium_2"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginRight="@dimen/margin_card_medium_2"
+                android:timePickerMode="clock" />
+
+            <Button
+                android:id="@+id/btnSelectTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_card_medium_2"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:text="@string/btn_select_time" />
+
+            <TextView
+                android:id="@+id/tvSelectedTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_card_medium_2"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginBottom="@dimen/margin_medium_2"
+                android:text="@string/format_selected_time" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:linksClickable="true"
+                android:text="@string/txtCredits" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

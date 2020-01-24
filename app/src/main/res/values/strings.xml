@@ -1,0 +1,117 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">HelloAndroid-PADC-X</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_hello_text_view">Hello TextView</string>
+    <string name="btn_lbl_go_to_container_component_activity">Go to ContainerComponent Activity</string>
+    <string name="btn_lbl_go_to_views_activity">Go to Views Activity</string>
+    <string name="toolbar_title_views">Views</string>
+    <string name="iv_description">This is image view</string>
+    <string name="btn_lbl_random_greeting">Random Greeting</string>
+    <string name="cb_txt_banana">Banana</string>
+    <string name="cb_txt_apple">Apple</string>
+    <string name="cb_txt_mango">Mango</string>
+    <string name="btn_lbl_check_fruit">Check Fruit</string>
+    <string name="radio_gender_male">Male</string>
+    <string name="radio_gender_female">Female</string>
+    <string name="alert_title_fruit">Your Fruits</string>
+    <string name="txt_sample_value_name">John T.Lord</string>
+    <string name="txt_lbl_sample_value_positon">Mobile App Developer</string>
+    <string name="txt_value_sample_quote">\"I love Code for Good\"</string>
+    <string name="btn_lbl_go_to_ui_components">Go To UI Components</string>
+
+    <string name="lbl_off">OFF</string>
+    <string name="lbl_on">ON</string>
+    <string name="lbl_guest_room_light">Guest room light :</string>
+    <string name="lbl_door_lock">Door Lock :</string>
+    <string name="door_lock_open">open</string>
+    <string name="door_lock_close">close</string>
+    <string name="lbl_brightness">Brightness of the light</string>
+    <string name="lbl_how_much_you_love_the_room">How much do you love the room ?</string>
+    <string name="lbl_shower_loading">Loading the shower</string>
+    <string name="lbl_lunch_selection">Select your lunch selection</string>
+    <string name="lbl_additional_drinks">Select your additional drinks</string>
+    <string name="btn_select_date">Select Date</string>
+    <string name="format_selected_date">Your selected date :</string>
+    <string name="btn_select_time">Select Time to check-out</string>
+    <string name="format_selected_time">Your selected time :</string>
+
+    <string name="txtCredits">Support: <a href="http://www.stackoverflow.com">click here</a></string>
+    <string name="lbl_select_image">Select Image</string>
+    <string name="lbl_show_direction_to_shwedagon_pagoda">Direction to Shwe Dagon Pagoda</string>
+    <string name="lbl_return">Return</string>
+    <string name="btn_lbl_other_common_ui_elements">Other Common UI Elements</string>
+    <string name="btn_lbl_set_timer_for_next_5_seconds">Set Timer for Next 5 Seconds</string>
+    <string name="btn_add_event">Add Event</string>
+    <string name="btn_lbl_call_mom">Call Mom</string>
+    <string name="btn_capture">Capture</string>
+    <string name="btn_lbl_select_a_contact_and_show">Select a contact and show</string>
+    <string name="txt_lbl_selected_value">Selected Value</string>
+    <string name="btn_lbl_web_search_android">Web Search - Android</string>
+    <string name="btn_lbl_go_to_collpasing_toolbar">Go To Collpasing Toolbar</string>
+    <string name="btn_lbl_go_to_tablayout">Go To TabLayout</string>
+    <string name="btn_lbl_go_to_navigation_vew">Go to Navigation Vew</string>
+
+
+    <string-array name="lunch_selection">
+        <item>Apple</item>
+        <item>Orange</item>
+        <item>Mango</item>
+    </string-array>
+
+    <string-array name="additional_drinks">
+        <item>Coke</item>
+        <item>Lemon</item>
+        <item>Beer</item>
+    </string-array>
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="drawer_close">Drawer Close</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="txt_sample_value_hello_navigation">Hello Navigation</string>
+    <string name="btn_lbl_go_to_constraintlayout">Go To ConstraintLayout</string>
+    <string name="text_sample">Behaviors may be used to implement a variety of interactions and additional layout modifications ranging from sliding drawers and panels to swipe-dismissable elements and buttons that stick to other elements as they move and animate. Children of a CoordinatorLayout may have an anchor. This view id must correspond to an arbitrary descendant of the CoordinatorLayout, but it may not be the anchored child itself or a descendant of the anchored child. This can be used to place floating views relative to other arbitrary content panes. Children can specify insetEdge to describe how the view insets the CoordinatorLayout. Any child views which are set to dodge the same inset edges by dodgeInsetEdges will be moved appropriately so that the views do not overlap. Behaviors may be used to implement a variety of interactions and additional layout modifications ranging from sliding drawers and panels to swipe-dismissable elements and buttons that stick to other elements as they move and animate. Children of a CoordinatorLayout may have an anchor. This view id must correspond to an arbitrary descendant of the CoordinatorLayout, but it may not be the anchored child itself or a descendant of the anchored child. This can be used to place floating views relative to other arbitrary content panes. Children can specify insetEdge to describe how the view insets the CoordinatorLayout. Any child views which are set to dodge the same inset edges by dodgeInsetEdges will be moved appropriately so that the views do not overlap.Behaviors may be used to implement a variety of interactions and additional layout modifications ranging from sliding drawers and panels to swipe-dismissable elements and buttons that stick to other elements as they move and animate. Children of a CoordinatorLayout may have an anchor. This view id must correspond to an arbitrary descendant of the CoordinatorLayout, but it may not be the anchored child itself or a descendant of the anchored child. This can be used to place floating views relative to other arbitrary content panes. Children can specify insetEdge to describe how the view insets the CoordinatorLayout. Any child views which are set to dodge the same inset edges by dodgeInsetEdges will be moved appropriately so that the views do not overlap.Behaviors may be used to implement a variety of interactions and additional layout modifications ranging from sliding drawers and panels to swipe-dismissable elements and buttons that stick to other elements as they move and animate. Children of a CoordinatorLayout may have an anchor. This view id must correspond to an arbitrary descendant of the CoordinatorLayout, but it may not be the anchored child itself or a descendant of the anchored child. This can be used to place floating views relative to other arbitrary content panes. Children can specify insetEdge to describe how the view insets the CoordinatorLayout. Any child views which are set to dodge the same inset edges by dodgeInsetEdges will be moved appropriately so that the views do not overlap.Behaviors may be used to implement a variety of interactions and additional layout modifications ranging from sliding drawers and panels to swipe-dismissable elements and buttons that stick to other elements as they move and animate. Children of a CoordinatorLayout may have an anchor. This view id must correspond to an arbitrary descendant of the CoordinatorLayout, but it may not be the anchored child itself or a descendant of the anchored child. This can be used to place floating views relative to other arbitrary content panes. Children can specify insetEdge to describe how the view insets the CoordinatorLayout. Any child views which are set to dodge the same inset edges by dodgeInsetEdges will be moved appropriately so that the views do not overlap.Behaviors may be used to implement a variety of interactions and additional layout modifications ranging from sliding drawers and panels to swipe-dismissable elements and buttons that stick to other elements as they move and animate. Children of a CoordinatorLayout may have an anchor. This view id must correspond to an arbitrary descendant of the CoordinatorLayout, but it may not be the anchored child itself or a descendant of the anchored child. This can be used to place floating views relative to other arbitrary content panes. Children can specify insetEdge to describe how the view insets the CoordinatorLayout. Any child views which are set to dodge the same inset edges by dodgeInsetEdges will be moved appropriately so that the views do not overlap.Behaviors may be used to implement a variety of interactions and additional layout modifications ranging from sliding drawers and panels to swipe-dismissable elements and buttons that stick to other elements as they move and animate. Children of a CoordinatorLayout may have an anchor. This view id must correspond to an arbitrary descendant of the CoordinatorLayout, but it may not be the anchored child itself or a descendant of the anchored child. This can be used to place floating views relative to other arbitrary content panes. Children can specify insetEdge to describe how the view insets the CoordinatorLayout. Any child views which are set to dodge the same inset edges by dodgeInsetEdges will be moved appropriately so that the views do not overlap.Behaviors may be used to implement a variety of interactions and additional layout modifications ranging from sliding drawers and panels to swipe-dismissable elements and buttons that stick to other elements as they move and animate. Children of a CoordinatorLayout may have an anchor. This view id must correspond to an arbitrary descendant of the CoordinatorLayout, but it may not be the anchored child itself or a descendant of the anchored child. This can be used to place floating views relative to other arbitrary content panes. Children can specify insetEdge to describe how the view insets the CoordinatorLayout. Any child views which are set to dodge the same inset edges by dodgeInsetEdges will be moved appropriately so that the views do not overlap.Behaviors may be used to implement a variety of interactions and additional layout modifications ranging from sliding drawers and panels to swipe-dismissable elements and buttons that stick to other elements as they move and animate. Children of a CoordinatorLayout may have an anchor. This view id must correspond to an arbitrary descendant of the CoordinatorLayout, but it may not be the anchored child itself or a descendant of the anchored child. This can be used to place floating views relative to other arbitrary content panes. Children can specify insetEdge to describe how the view insets the CoordinatorLayout. Any child views which are set to dodge the same inset edges by dodgeInsetEdges will be moved appropriately so that the views do not overlap.Behaviors may be used to implement a variety of interactions and additional layout modifications ranging from sliding drawers and panels to swipe-dismissable elements and buttons that stick to other elements as they move and animate. Children of a CoordinatorLayout may have an anchor. This view id must correspond to an arbitrary descendant of the CoordinatorLayout, but it may not be the anchored child itself or a descendant of the anchored child. This can be used to place floating views relative to other arbitrary content panes. Children can specify insetEdge to describe how the view insets the CoordinatorLayout. Any child views which are set to dodge the same inset edges by dodgeInsetEdges will be moved appropriately so that the views do not overlap.Behaviors may be used to implement a variety of interactions and additional layout modifications ranging from sliding drawers and panels to swipe-dismissable elements and buttons that stick to other elements as they move and animate. Children of a CoordinatorLayout may have an anchor. This view id must correspond to an arbitrary descendant of the CoordinatorLayout, but it may not be the anchored child itself or a descendant of the anchored child. This can be used to place floating views relative to other arbitrary content panes. Children can specify insetEdge to describe how the view insets the CoordinatorLayout. Any child views which are set to dodge the same inset edges by dodgeInsetEdges will be moved appropriately so that the views do not overlap.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_lbl_show_fragment_one">Show Fragment One</string>
+    <string name="btn_lbl_show_fragment_two">Show Fragment Two</string>
+    <string name="lbl_bottom_nav_home">Home</string>
+    <string name="lbl_bottom_nav_notifications">Notifications</string>
+    <string name="lbl_bottom_nav_profile">Profile</string>
+    <string name="lbl_location_name">PADC Myanmar</string>
+    <string name="rating_value">4.0</string>
+    <string name="lbl_distance">2 min away</string>
+    <string name="lbl_address">No 412 4B GoldenGate Tower, Upper Pazundaung Township</string>
+    <string name="lbl_contact_phone">09256443072</string>
+    <string name="lbl_access_time">Sat, Sun 9:00 AM to 6:00 PM</string>
+    <string name="btn_lbl_process_payment">Continue Navigation</string>
+    <string name="btn_lbl_show_bottom_sheet">Show BottomSheet</string>
+    <string name="btn_txt_bottom_sheet_dialog">BottomSheet dialog</string>
+    <string name="btn_text_show_with_dialog_fragment">BottomSheet Dialog Fragment</string>
+    <string name="btn_lbl_close_sheet">Close Sheet</string>
+    <string name="btn_lbl_expand_sheet">Expand Sheet</string>
+
+    <string name="template"> This is <xliff:g id="variable_name"> %1$s</xliff:g></string>
+    <string name="tool_bar_title_news_list">News List</string>
+    <string name="txt_sample_headline">ရွေးကောက်ပွဲတွင် ၅၀ ရာခိုင်နှုန်းအထိ အနိုင်ရရှိရန်မျှော်မှန်းဟု သူရဦးရွှေမန်းပြော</string>
+    <string name="txt_sample_published_date">8 hours ago</string>
+    <string name="txt_sample_publisher_name">TheVoiceMyanmar</string>
+    <string name="btn_like">Like</string>
+    <string name="like_button_support_iv">like Button</string>
+    <string name="iv_headline_image">HeadLine Image</string>
+    <string name="sample_news_content">ရ၂၀၂၀ ရွေးကောက်ပွဲတွင် ၄၀ ရာခိုင်နှုန်းမှ ၅၀ ရာခိုင်နှုန်းအထိ အနိုင်ရရှိရန်မျှော်မှန်းထားကြောင်း ပြည်ထောင်စု ကောင်းကျိုးဆောင်ပါတီခေါင်းဆောင် သူရဦးရွှေမန်းက ပြောကြားသည်။ လက်ရှိမှာတော့ ပါတီဝင်အင်အားတိုးပွားရေးနဲ့ အောင်နိုင်ရေးကိစ္စတွေကို ကြိုးပမ်းဆောင်ရွက်နေတယ်။ပါတီအရည် အသွေးကောင်းအောင် တည်ဆောက်နေတယ်။အဓိကအားဖြင့်တော့ အခြေခံကျတဲ့ ရပ်/ကျေးကော်မတီ၊ မြို့နယ်ကော်မတီတွေ အရည်အသွေးကောင်းမွန်အောင် တည်ဆောက်နေပါတယ် ဟု ၎င်းကဆိုသည်။ ယနေ့အချိန်အထိ မြို့နယ်ရုံးခွဲပေါင်း ၂၄၀ ကျော်ဖွင့်လှစ်ထားပြီး ၂၅၀ခန့်အထိ ဖွင့်လှစ်နိုင်ရန် မျှော်မှန်းထားကြောင်း၊ ကျေးရွာ/ရပ်ကွက်ရုံးများအနေနှင့် ၅၅၀ဝ ကျော်ဖွင့်လှစ်ထားပြီးဖြစ်ကာ ပါတီဝင်အင်အား ငါးသိန်းကျော်ရှိကြောင်း ပြည်ထောင်စုကောင်းကျိုးဆောင်ပါတီ ထံမှသိရသည်။ ပါတီအနေနှင့် ဥပဒေပြုရေးမဏ္ဍိုင်၊ အုပ်ချုပ်ရေးမဏ္ဍိုင်၊ တရားစီရင်ရေးမဏ္ဍိုင်များ ခိုင်မာတောင့်တင်းရေးအတွက် ပြင်ဆင်ဆောင်ရွက်နေပြီး သက်ဆိုင်ရာအစိုးရအဖွဲ့အစည်းများ၏ တာဝန်ကျေပွန်မှု၊ တာဝန်ခံနိုင်မှုများအတွက် အလေးထား ဆောင်ရွက်နေကြောင်း၊ သတင်းမီဒီယာများ၏ ပါဝင်မှုနှင့် ပွင့်လင်းမြင်သာမှုအပေါ် တာဝန်ခံဆောင်ရွက်သွားရန်ရှိကြောင်း သူရဦးရွှေမန်းက ပြောကြားသည်။ ပြည်ထောင်စုကောင်းကျိုးဆောင်ပါတီခေါင်းဆောင် သူရဦးရွှေမန်းသည် တပ်မတော်အစိုးရလက်ထက်တွင် ဗိုလ်ချုပ်ကြီးအဆင့်အထိ တာဝန်ထမ်းဆောင်ခဲ့သူဖြစ်ပြီး ၂၀၁၀ ပြည့်နှစ် ရွေးကောက်ပွဲတွင် ပြည်ထောင်စုကြံ့ခိုင်ရေးနှင့် ဖွံ့ဖြိုးရေးပါတီ ကိုယ်စားပြု ဇေယျာသီရိမြို့နယ်မဲဆန္ဒနယ်မှ ဝင်ရောက်ယှဉ်ပြိုင်အောင်နိုင်ခဲ့ရာ ပြည်သူ့လွှတ်တော်ဥက္ကဋ္ဌ၊ ပြည်ထောင်စုလွှတ်တော်နာယက အဖြစ် တာဝန်ယူခဲ့သည်။ ၂၀၁၅ ခုနှစ် အထွေထွေရွေးကောက်ပွဲတွင် ဖြူးမြို့နယ်မှ ဝင်ရောက်ယှဉ်ပြိုင်ခဲ့ရာ ရှုံးနိမ့်ခဲ့ပြီး NLD အစိုးရလက်ထက်တွင် ပြည်ထောင်စုလွှတ်တော်၊ ဥပဒေရေးရာ နှင့် အထူးကိစ္စရပ်များလေ့လာဆန်းစစ် သုံးသပ်ရေးကော်မရှင်တွင် ဥက္ကဋ္ဌအဖြစ် ၂၀၁၉ ခုနှစ် ဖေဖော်ဝါရီလ ၂၈ ရက်နေ့ အထိ တာဝန်ထမ်းဆောင်ခဲ့သည်။</string>
+</resources>
